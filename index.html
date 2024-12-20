@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Vellora</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid py-4 px-3 d-flex align-items-center justify-content-between" id="navbar">
+        <img width="50" src="img/logo.png" alt="logo" id="logo">
+        <h1 id="logotext" class="text-white mb-0">Vellora.</h1>
+        <div>
+            <ul id="nav-options" class="d-flex mb-0 text-white mr-0">
+                <li id="write-function" class="d-flex align-items-center gap-2">
+                    Write <i class="bi bi-pencil fs-5"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+    <div id="hero-text" class="container-fluid align-items-center justify-content-center text-lg-center text-md-start text-white p-3 pb-0 mt-5">
+        <h1>Speak Freely.<br>Think Openly.<br>A space where your <span style="color: rgb(71, 52, 245);">thoughts </span>are truly unhidden.</h1>
+        <p class="lead text-opacity-25">Where thought transcends boundaries and the unspoken emerges.</p>
+    </div>
+
+    <div class="container-fluid py-5 d-flex align-items-center justify-content-lg-center justify-content-md-start gap-2 ml-4">
+        <input id="searchbar" type="text" class="p-2 w-2" placeholder="Explore....">
+        <button id="searchbtn" class="p-2 w-1">Search</button>
+    </div>
+
+    <div class="container-fluid py-5 d-flex align-items-center justify-content-center text-center text-white mt-5">
+        <h2 id="header-stories" class="d-flex justify-content-center align-items-center gap-2 mt-5"><span></span>Popular Stories<span></span></h2>
+    </div>
+
+    <!--Articles-->
+    <div id="aricles" class="container-fluid py-3 d-flex flex-column align-items-center justify-content-center text-white">
+        <!--Row 1-->
+        <div class="container-fluid row gap-4 justify-content-center mt-2 ml-5">
+            <!--item1-->
+            <div class="col-lg-5 col-sm-12 border-bottom border-1 border-light">
+                <div class="container">
+                    <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle" width="20" height="20">
+                        <p class="lead fs-6">By <span>Ambot kinsa ko</span></p>
+                    </div>
+                    <h1>I Created an AI Image of Myself and the Pope—Here's Why It's Not What You Think</h1>
+                    <p>I created an AI image of myself and the Pope in a provocative embrace, thinking it would challenge societal norms. What I didn't expect was the outrage. But as the controversy unfolded, I began to question—what's the real line between art and disrespect? Maybe it's not what you think…</p>
+                    <ul class="d-flex list-unstyled gap-3">
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-balloon-fill text-light mx-1" width="20" height="20"></i>
+                            <p>22.2k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-chat-dots-fill text-light mx-1" width="20" height="20"></i>
+                            <p>1.2k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-calendar-check-fill text-light mx-1" width="20" height="20"></i>
+                            <p>2024-11-22</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Item 2-->
+            <div class="col-lg-5 col-sm-12 border-bottom border-1 border-light">
+                <div class="container">
+                    <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle" width="20" height="20">
+                        <p class="lead fs-6">By <span>Ambot kinsa ko</span></p>
+                    </div>
+                    <h1>I Slept with 100 Men in a Day—Now I'm Aiming for 1,000</h1>
+                    <p>I slept with 100 men in a single day, pushing boundaries and testing limits. The reaction was intense, but it only fueled my desire to go further. Now, I'm setting my sights on 1,000—because why stop at one milestone when there's so much more to explore…
+                    </p>
+                    <ul class="d-flex list-unstyled gap-3">
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-balloon-fill text-light mx-1" width="20" height="20"></i>
+                            <p>10.2k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-chat-dots-fill text-light mx-1" width="20" height="20"></i>
+                            <p>5k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-calendar-check-fill text-light mx-1" width="20" height="20"></i>
+                            <p>2024-11-22</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Row 2-->
+        <div class="container-fluid row gap-4 justify-content-center mt-5">
+            <!--item 3-->
+            <div class="col-lg-5 col-sm-12 border-bottom border-1 border-light align-items-center">
+                <div class="container">
+                    <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle" width="20" height="20">
+                        <p class="lead fs-6">By <span>Ambot kinsa ko</span></p>
+                    </div>
+                    <h1>I Watched Trump's Cabinet Picks Unfold—And It Feels Like a Reality Show</h1>
+                    <p>I watched as Trump’s Cabinet picks were announced, and honestly, it felt more like a reality show than a political move. The drama, the spectacle—it’s hard to take seriously. But maybe that’s exactly the point…?</p>
+                    <ul class="d-flex list-unstyled gap-3">
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-balloon-fill text-light mx-1" width="20" height="20"></i>
+                            <p>12.3k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-chat-dots-fill text-light mx-1" width="20" height="20"></i>
+                            <p>2.3k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-calendar-check-fill text-light mx-1" width="20" height="20"></i>
+                            <p>2024-11-22</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--item 4-->
+            <div class="col-lg-5 col-sm-12 border-bottom border-1 border-light justify-content-center align-items-center">
+                <div class="container">
+                    <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle" width="20" height="20">
+                        <p class="lead fs-6">By <span>Ambot kinsa ko</span></p>
+                    </div>
+                    <h1>I Let Microsoft’s AI Spy on Me—Privacy Is Dead, and I’m Okay with It</h1>
+                    <p>I let Microsoft’s AI track my every move, capturing screenshots and analyzing my habits. At first, I was hesitant, but now? I’ve come to terms with it. Privacy is a thing of the past—and maybe that's not such a bad thing after all…</p>
+                    <ul class="d-flex list-unstyled gap-3">
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-balloon-fill text-light mx-1" width="20" height="20"></i>
+                            <p>15.4k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-chat-dots-fill text-light mx-1" width="20" height="20"></i>
+                            <p>1.6k</p>
+                        </li>
+                        <li class="d-flex gap-1">
+                            <i class="bi bi-calendar-check-fill text-light mx-1" width="20" height="20"></i>
+                            <p>2024-11-22</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-3 d-flex flex-column justify-content-center align-items-center text-white mt-5">
+        <h2 id="header-stories" class="d-flex justify-content-center align-items-center gap-2 mt-5 text-center"><span></span>Top Authors<span></span></h2>
+        <p class="lead text-center" style="opacity: 50%;">Meet our most influential and engaging content creators</p>
+        <div class="container row gap-4 p-3 d-flex justify-content-center align-items-center">
+            <div class="container-fluid col-lg-5 col-sm-12 d-flex flex-column justify-content-center align-items-center p-3 py-4 bg-white text-dark" style="border-radius: .7rem;">
+                <div class="container d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle" width="70" height="70">
+                    <div class="container p-2">
+                        <h3 class="fs-5 mb-0" style="font-family: 'Inter', serif; font-weight: 600;">Evanz Tumbaga</h3>
+                        <p class="mb-0" style="color: grey;">@evanz</p>
+                        <p class="lead mb-0" style="font-size: 1rem; font-family: 'Inter', serif; font-weight: 500;">Tech Journalist</p>
+                    </div>
+                    <div id="topauthor" class="container p-1 d-flex align-self-start" style="align-items: flex-end;">
+                        <div class="rounded d-flex ms-auto" >
+                            <p class="mb-0 p-2 d-flex gap-2" style="color: black; border: solid 1px grey; border-radius: 1rem;"><i class="bi bi-star-fill"></i>Top Author</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-1">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-people-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">52.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Followers</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-chat-left-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">25</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Post</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-heart fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">152.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Likes</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-person-workspace fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">93.4%</p>
+                            </div>
+                            <p class="px-4 m-0 fs-7" style="color: rgb(95, 95, 95);">Engagement</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="viewprofile" class="p-3 d-flex text-center w-100 justify-content-center align-items-center" style="font-size: 1rem; font-family: 'Inter', serif; border: solid 1px grey;;">
+                    View Profile
+                </button>
+            </div>
+
+            <div class="container-fluid col-lg-5 col-sm-12 d-flex flex-column justify-content-center align-items-center p-3 py-4 bg-white text-dark" style="border-radius: .7rem;">
+                <div class="container d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle" width="70" height="70">
+                    <div class="container p-2">
+                        <h3 class="fs-5 mb-0" style="font-family: 'Inter', serif; font-weight: 600;">Archier Navales</h3>
+                        <p class="mb-0" style="color: grey;">@oreo</p>
+                        <p class="lead mb-0" style="font-size: 1rem; font-family: 'Inter', serif; font-weight: 500;">Software Eng.</p>
+                    </div>
+                    <div id="topauthor" class="container p-1 d-flex align-self-start" style="align-items: flex-end;">
+                        <div class="rounded d-flex ms-auto" >
+                            <p class="mb-0 p-2 d-flex gap-2" style="color: black; border: solid 1px grey; border-radius: 1rem;"><i class="bi bi-star-fill"></i>Top Author</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-1">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-people-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">52.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Followers</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-chat-left-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">25</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Post</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-heart fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">152.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Likes</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-person-workspace fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">93.4%</p>
+                            </div>
+                            <p class="px-4 m-0 fs-7" style="color: rgb(95, 95, 95);">Engagement</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="viewprofile" class="p-3 d-flex text-center w-100 justify-content-center align-items-center" style="font-size: 1rem; font-family: 'Inter', serif; border: solid 1px grey;;">
+                    View Profile
+                </button>
+            </div>
+        </div>
+
+        <div class="container row gap-4 p-3 d-flex justify-content-center align-items-center">
+            <div class="container-fluid col-lg-5 col-sm-12 d-flex flex-column justify-content-center align-items-center p-3 py-4 bg-white text-dark" style="border-radius: .7rem;">
+                <div class="container d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle" width="70" height="70">
+                    <div class="container p-2">
+                        <h3 class="fs-5 mb-0" style="font-family: 'Inter', serif; font-weight: 600;">Ellyza Rejas</h3>
+                        <p class="mb-0" style="color: grey;">@elly</p>
+                        <p class="lead mb-0" style="font-size: 1rem; font-family: 'Inter', serif; font-weight: 500;">Tech Journalist</p>
+                    </div>
+                    <div id="topauthor" class="container p-1 d-flex align-self-start" style="align-items: flex-end;">
+                        <div class="rounded d-flex ms-auto" >
+                            <p class="mb-0 p-2 d-flex gap-2" style="color: black; border: solid 1px grey; border-radius: 1rem;"><i class="bi bi-star-fill"></i>Top Author</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-1">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-people-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">52.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Followers</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-chat-left-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">25</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Post</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-heart fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">152.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Likes</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-person-workspace fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">93.4%</p>
+                            </div>
+                            <p class="px-4 m-0 fs-7" style="color: rgb(95, 95, 95);">Engagement</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="viewprofile" class="p-3 d-flex text-center w-100 justify-content-center align-items-center" style="font-size: 1rem; font-family: 'Inter', serif; border: solid 1px grey;;">
+                    View Profile
+                </button>
+            </div>
+
+            <div class="container-fluid col-lg-5 col-sm-12 d-flex flex-column justify-content-center align-items-center p-3 py-4 bg-white text-dark" style="border-radius: .7rem;">
+                <div class="container d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/7.jpg" class="rounded-circle" width="70" height="70">
+                    <div class="container p-2">
+                        <h3 class="fs-5 mb-0" style="font-family: 'Inter', serif; font-weight: 600;">Sino tue</h3>
+                        <p class="mb-0" style="color: grey;">@ambot</p>
+                        <p class="lead mb-0" style="font-size: 1rem; font-family: 'Inter', serif; font-weight: 500;">Tech Journalist</p>
+                    </div>
+                    <div id="topauthor" class="container p-1 d-flex align-self-start" style="align-items: flex-end;">
+                        <div class="rounded d-flex ms-auto" >
+                            <p class="mb-0 p-2 d-flex gap-2" style="color: black; border: solid 1px grey; border-radius: 1rem;"><i class="bi bi-star-fill"></i>Top Author</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid p-1">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-people-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">52.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Followers</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-chat-left-fill fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">25</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Post</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-heart fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">152.4k</p>
+                            </div>
+                            <p class="px-4 m-0" style="color: rgb(95, 95, 95);">Likes</p>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center">
+                            <div class="container d-flex gap-2 align-items-center">
+                                <i class="bi bi-person-workspace fs-5"></i>
+                                <p class="lead fw-bold mb-0 fs-6">93.4%</p>
+                            </div>
+                            <p class="px-4 m-0 fs-7" style="color: rgb(95, 95, 95);">Engagement</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="viewprofile" class="p-3 d-flex text-center w-100 justify-content-center align-items-center" style="font-size: 1rem; font-family: 'Inter', serif; border: solid 1px grey;;">
+                    View Profile
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        const input = document.getElementById('searchbar');
+        input.addEventListener('focus', function() {
+            this.placeholder = '';
+        });
+        input.addEventListener('blur', function() {
+        if (!this.value) {
+            this.placeholder = 'Explore....';
+        }
+        });
+    </script>
+</body>
+</html>

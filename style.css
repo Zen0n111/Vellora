@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 22);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Tinos", serif;
+}
+
+#navbar {
+    background-color: black;
+}
+
+#logo {
+    filter: invert(1);
+    margin-left: 2rem;
+}
+
+#logotext {
+    margin-left: 2.5rem;
+}
+
+#nav-options {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#write-function {
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+#write-function:hover {
+    color: rgb(50, 60, 202);
+}
+
+#searchbar {
+    min-width: 10rem;
+    max-width: 25rem;
+    width: 100%;
+    height: 3rem;
+    border: solid rgb(167, 167, 167) 1px;
+    border-radius: .5rem;
+    background: none;
+    background-color: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    padding-left: .5rem;
+}
+
+#searchbar::placeholder {
+    color: rgb(106, 106, 106);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: .5rem;
+}
+
+#searchbar:focus{
+    outline: none;
+}
+
+#searchbtn {
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: .6rem;
+}
+
+#searchbtn:hover {
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+#hero-text > h1, p, span {
+    font-family: "Inter", serif;
+}
+
+#hero-text > p {
+    opacity: 50%;
+}
+
+#header-stories {
+    font-family: "Inter", serif;
+}
+
+#header-stories > span {
+    width: 6rem;
+    border-bottom: solid 1px white;
+}
+
+#viewprofile {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 1rem;
+    transition: ease-in-out .1s;
+}
+
+#viewprofile:hover {
+    background-color: rgb(244, 242, 242);
+}
+
+@media(max-width: 768px) {
+    #logo{
+        display: none;
+    }
+
+    #logotext {
+        margin-left: .3rem;
+    }
+
+    #searchbar {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 480px){
+    #nav-options {
+        margin: 0;
+    }
+
+    #topauthor{
+        display: none !important;
+    }
+    
+}
